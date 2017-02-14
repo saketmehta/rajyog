@@ -107,7 +107,7 @@ exports = module.exports = __webpack_require__(395)();
 exports.i(__webpack_require__(627), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nhtml, body {\n    height: 100%;\n}\n\nbody {\n    margin: 0;\n    background-color: grey;\n    font-family: 'Roboto', sans-serif;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nhtml, body {\n    height: 100%;\n}\n\nbody {\n    margin: 0;\n    font-family: 'Roboto', sans-serif;\n    background-color: black;\n}", ""]);
 
 // exports
 

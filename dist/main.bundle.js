@@ -131,12 +131,8 @@ var AppModule = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `angular-cli.json`.
 var environment = {
-    production: false
+    production: true
 };
 //# sourceMappingURL=/Users/Saket/Dev/rajyog/src/environment.js.map
 
@@ -145,14 +141,14 @@ var environment = {
 /***/ 631:
 /***/ (function(module, exports) {
 
-module.exports = "#page {\n    height: 100%;\n}\n\n.content {\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}"
+module.exports = "#page {\n  height: 100%;\n}\n\n.content {\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n\n.gallery {\n  height: 100%;\n  margin: 20px;\n}\n"
 
 /***/ }),
 
 /***/ 632:
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"page\" fxLayout='column'>\n  <md-toolbar color=\"primary\">\n    <span>{{ title }}</span>\n    <span fxFlex></span>\n    <button md-raised-button color=\"accent\">Contact Us</button>\n  </md-toolbar>\n  <div fxLayout='column' style=\"height: 100%\" class=\"content\">\n    <div fxFlex fxLayoutAlign='center center' style=\"background-color: grey; height: 100%;\">\n      <p style=\"font-size: 40px\">Coming soon!</p>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"page\" fxLayout='column'>\n  <md-toolbar color=\"primary\">\n    <span>{{ title }}</span>\n    <span fxFlex></span>\n    <button md-button>Gallery</button>\n    <button md-button>Contact Us</button>\n  </md-toolbar>\n  <div fxLayout='column' style=\"height: 100%\" class=\"content\">\n    <div fxFlex=\"80%\" fxLayoutAlign='center center' class=\"gallery\">\n      <img src=\"assets/rajyog-1.jpg\" alt=\"Rajyog 1\" style=\"height: 100%\">\n    </div>\n    <div fxFlex fxLayoutAlign='center center' style=\"height: 100%;\">\n      <button md-raised-button color='accent'>Previous</button>\n      <span style=\"width: 10px\"></span>\n      <button md-raised-button color='accent'>Next</button>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
