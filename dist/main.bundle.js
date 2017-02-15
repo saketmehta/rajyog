@@ -148,7 +148,7 @@ module.exports = "#page {\n  height: 100%;\n}\n\n.content {\n  -webkit-box-pack:
 /***/ 632:
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"page\" fxLayout='column'>\n  <md-toolbar color=\"primary\">\n    <span>{{ title }}</span>\n    <span fxFlex></span>\n    <button md-button>Gallery</button>\n    <button md-button>Contact Us</button>\n  </md-toolbar>\n  <div fxLayout='column' style=\"height: 100%\" class=\"content\">\n    <div fxFlex=\"80%\" fxLayoutAlign='center center' class=\"gallery\">\n      <img src=\"assets/rajyog-1.jpg\" alt=\"Rajyog 1\" style=\"height: 100%\">\n    </div>\n    <div fxFlex fxLayoutAlign='center center' style=\"height: 100%;\">\n      <button md-raised-button color='accent'>Previous</button>\n      <span style=\"width: 10px\"></span>\n      <button md-raised-button color='accent'>Next</button>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"page\" fxLayout='column'>\n  <md-toolbar color=\"primary\">\n    <span>{{ title }}</span>\n    <span fxFlex></span>\n    <button md-button>Gallery</button>\n    <button md-button>Contact Us</button>\n  </md-toolbar>\n  <div fxLayout='column' style=\"height: 100%\" class=\"content\">\n    <div fxFlex=\"80%\" fxLayoutAlign='center center' class=\"gallery\">\n      <img src=\"assets/rajyog-1.jpg\" alt=\"Rajyog 1\" style=\"max-width: 100%; max-height: 100%\">\n    </div>\n    <div fxFlex=\"20%\" fxLayoutAlign='center center' style=\"height: 100%;\">\n      <button md-raised-button color='accent'>Previous</button>\n      <span style=\"width: 10px\"></span>\n      <button md-raised-button color='accent'>Next</button>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
