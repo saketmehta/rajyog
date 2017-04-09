@@ -1,18 +1,5 @@
-<div id="page" fxLayout='column'>
-  <md-toolbar color="primary">
-    <span>{{ title }}</span>
-    <span fxFlex></span>
-    <button md-button>Gallery</button>
-    <button md-button>Contact Us</button>
-  </md-toolbar>
-  <div fxLayout='column' style="height: 100%" class="content">
-    <div fxFlex="80%" fxLayoutAlign='center center' class="gallery">
-      <img src="assets/rajyog-1.jpg" alt="Rajyog 1" style="max-width: 100%; max-height: 100%">
-    </div>
-    <div fxFlex="20%" fxLayoutAlign='center center' style="height: 100%;">
-      <button md-raised-button color='accent'>Previous</button>
-      <span style="width: 10px"></span>
-      <button md-raised-button color='accent'>Next</button>
-    </div>
-  </div>
-</div>
+<app-toolbar></app-toolbar>
+
+<app-gallery></app-gallery>
+
+<app-contact></app-contact>

@@ -1,10 +1,10 @@
-import { TmpPage } from './app.po';
+import { RajyogPage } from './app.po';
 
-describe('tmp App', function() {
-  let page: TmpPage;
+describe('rajyog App', () => {
+  let page: RajyogPage;
 
   beforeEach(() => {
-    page = new TmpPage();
+    page = new RajyogPage();
   });
 
   it('should display message saying app works', () => {
