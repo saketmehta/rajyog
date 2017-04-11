@@ -6,6 +6,10 @@ md-card {
   margin-left: 20px;
 }
 
-.example-full-width {
-  width: 100%;
+.main-image {
+  height: 78vh;
+  background-image: url('../../assets/rajyog-1.jpg');
+  background-size: cover;
+  background-position: center;
 }
+
